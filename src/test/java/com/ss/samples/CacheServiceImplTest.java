@@ -38,12 +38,6 @@ public class CacheServiceImplTest {
     }
 
     @Test
-    public void putInGetMethodTest() {
-
-    }
-
-
-    @Test
     public void putHappyPath() {
         long testValue = System.currentTimeMillis();
         CacheServiceImpl impl = prepareDataForTest("TEST-PUT", testValue);
